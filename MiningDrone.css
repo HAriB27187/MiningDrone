@@ -963,7 +963,6 @@ section {
     max-width: 800px;
 }
 
-/* footer content */
 .footer {
     margin-top: 0;
 }
@@ -993,6 +992,16 @@ section {
     padding-bottom: 10px;
 }
 
+.footer .logo h4 {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
+
+.footer h4::after {
+    display: none !important;
+}
 .footer h3::after {
     content: '';
     position: absolute;
@@ -1207,5 +1216,3 @@ section {
             width: 100%;
         }
     }
-
-    
